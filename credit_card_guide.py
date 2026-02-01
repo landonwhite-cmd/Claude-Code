@@ -63,15 +63,15 @@ def create_pdf():
             ("Gemini Card", "3% back in crypto", "All dining purchases"),
             ("Citi Strata Elite", "3x-6x Points", "6x Fri-Sat 6PM-6AM, 3x other times"),
         ]),
-        ("✈️ FLIGHTS / AIRFARE", [
-            ("Citi Strata Elite", "6x Points", "Via Citi Travel portal"),
+        ("✈️ FLIGHTS / AIRFARE (Direct Booking)", [
+            ("Amex Platinum", "5x MR Points", "Booked direct with airlines"),
             ("Citi Prestige", "5x ThankYou Points", "Direct or travel agency purchases"),
-            ("Amex Platinum", "5x MR Points", "Direct with airlines or Amex Travel"),
+            ("Cap One Venture", "2x Miles", "Flat rate on all purchases"),
         ]),
-        ("🏨 HOTELS", [
-            ("Citi Strata Elite", "12x Points", "Hotels booked via Citi Travel"),
+        ("🏨 HOTELS (Direct Booking)", [
             ("Chase World of Hyatt", "9x Points", "At Hyatt properties (4x card + 5x member)"),
-            ("Cap One Venture", "5x Miles", "Via Capital One Travel portal"),
+            ("Citi Prestige", "3x ThankYou Points", "Any hotel booked direct"),
+            ("Cap One Venture", "2x Miles", "Flat rate on all purchases"),
         ]),
         ("🛒 GROCERIES", [
             ("Prime Visa", "5% back", "Whole Foods Market"),
