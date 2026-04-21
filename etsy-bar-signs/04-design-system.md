@@ -109,6 +109,7 @@ Think: **1920s speakeasy meets 1880s saloon meets modern whiskey bar.**
 5. **Distressing is texture, not content.** Never distress lettering to the point of illegibility.
 6. **Attribution is always present.** It's what makes the sign feel like a quote, not a slogan.
 7. **No movie titles on the sign.** Ever. (IP + aesthetic — movie titles look like merch.)
+8. **No narrator lead-ins** above the quote (e.g. "— A REMINDER —", "— ON THE HOUSE —", "— FROM THE DESK OF THE DEAN —"). Let the ornament do the work. Go straight from ornament to quote.
 
 ---
 
