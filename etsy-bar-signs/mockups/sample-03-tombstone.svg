@@ -56,9 +56,6 @@
     <circle cx="0" cy="0" r="4" fill="#C09963"/>
   </g>
 
-  <!-- "YOU TELL 'EM" small lead -->
-  <text x="550" y="330" text-anchor="middle" class="small" font-size="22" fill="#1A1410">— HE SAID —</text>
-
   <!-- Main quote line 1, western -->
   <text x="550" y="470" text-anchor="middle" class="western" font-size="78" fill="#1A1410">You tell 'em</text>
   <text x="550" y="565" text-anchor="middle" class="western" font-size="78" fill="#1A1410">I'm coming...</text>

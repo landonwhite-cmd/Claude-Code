@@ -51,9 +51,6 @@
     <line x1="0" y1="40"  x2="0" y2="28"/>
   </g>
 
-  <!-- opening dash -->
-  <text x="550" y="320" text-anchor="middle" class="small" font-size="18" fill="#B48B3C">— ON THE HOUSE —</text>
-
   <!-- quote -->
   <text x="550" y="500" text-anchor="middle" class="headline" font-size="80" fill="#F2E4C4">Your money's</text>
   <text x="550" y="595" text-anchor="middle" class="headline" font-size="80" fill="#F2E4C4">no good here, sir.</text>

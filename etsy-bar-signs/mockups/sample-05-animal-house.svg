@@ -46,8 +46,6 @@
     <circle r="4" fill="#B48B3C" stroke="none"/>
   </g>
 
-  <text x="550" y="280" text-anchor="middle" class="lead" font-size="16" fill="#B48B3C">— FROM THE DESK OF THE DEAN —</text>
-
   <!-- quote -->
   <text x="550" y="460" text-anchor="middle" class="quote" font-size="72" fill="#F2E4C4">My advice</text>
   <text x="550" y="555" text-anchor="middle" class="quote" font-size="72" fill="#F2E4C4">to you is</text>

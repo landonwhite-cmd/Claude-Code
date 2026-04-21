@@ -47,8 +47,6 @@
     <circle r="5" fill="#1A1410" stroke="none"/>
   </g>
 
-  <text x="900" y="215" text-anchor="middle" class="lead" font-size="18" fill="#1A1410">— A REMINDER —</text>
-
   <!-- quote line 1 (hero) -->
   <text x="900" y="400" text-anchor="middle" class="quote" font-size="96" fill="#1A1410">Life moves pretty fast.</text>
 
