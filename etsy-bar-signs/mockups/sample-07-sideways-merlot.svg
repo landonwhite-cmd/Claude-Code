@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1400" role="img" aria-label="Sideways Merlot bar sign">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=IM+Fell+English:ital@0;1&amp;family=Cinzel:wght@400;600;700&amp;display=swap');
+      .lead   { font-family: 'Cinzel', serif; letter-spacing: 8px; }
+      .quote  { font-family: 'Playfair Display', serif; font-weight: 700; font-style: italic; }
+      .bang   { font-family: 'Playfair Display', serif; font-weight: 900; }
+      .soft   { font-family: 'IM Fell English', serif; font-style: italic; }
+      .attrib { font-family: 'Cinzel', serif; font-weight: 700; letter-spacing: 12px; }
+      .small  { font-family: 'Cinzel', serif; letter-spacing: 6px; }
+    </style>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#26140E"/>
+      <stop offset="50%"  stop-color="#331D14"/>
+      <stop offset="100%" stop-color="#25140E"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.2" numOctaves="2" seed="41" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.09  0 0 0 0 0.05  0 0 0 0 0.03  0 0 0 0.25 0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="50%" r="72%">
+      <stop offset="55%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1100" height="1400" fill="url(#wood)"/>
+  <rect width="1100" height="1400" fill="#331D14" filter="url(#grain)" opacity="0.55"/>
+  <g stroke="#12080A" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="200"  x2="1100" y2="194"/>
+    <line x1="0" y1="460"  x2="1100" y2="467"/>
+    <line x1="0" y1="720"  x2="1100" y2="714"/>
+    <line x1="0" y1="980"  x2="1100" y2="986"/>
+    <line x1="0" y1="1220" x2="1100" y2="1214"/>
+  </g>
+  <rect width="1100" height="1400" fill="url(#vig)"/>
+
+  <!-- oxblood + gold double frame -->
+  <rect x="50" y="50" width="1000" height="1300" fill="none" stroke="#6E1F1A" stroke-width="2.5"/>
+  <rect x="66" y="66" width="968" height="1268" fill="none" stroke="#B48B3C" stroke-width="1"/>
+
+  <!-- wine bottle + glass ornament -->
+  <g transform="translate(550,190)" fill="none" stroke="#B48B3C" stroke-width="1.8">
+    <!-- glass -->
+    <path d="M -70 -25 Q -70 5 -50 15 L -50 35 L -62 35 L -38 35"/>
+    <!-- bottle -->
+    <path d="M 40 -35 L 40 -15 L 30 -5 L 30 35 L 68 35 L 68 -5 L 58 -15 L 58 -35 Z"/>
+    <line x1="40" y1="-35" x2="58" y2="-35" stroke-width="3"/>
+  </g>
+
+  <text x="550" y="280" text-anchor="middle" class="lead" font-size="16" fill="#B48B3C">— A SACRED RULE —</text>
+
+  <!-- quote -->
+  <text x="550" y="430" text-anchor="middle" class="quote" font-size="50" fill="#F2E4C4">If anyone orders Merlot,</text>
+  <text x="550" y="490" text-anchor="middle" class="quote" font-size="50" fill="#F2E4C4">I'm leaving.</text>
+
+  <!-- divider -->
+  <g stroke="#B48B3C" stroke-width="1.2">
+    <line x1="280" y1="560" x2="500" y2="560"/>
+    <line x1="600" y1="560" x2="820" y2="560"/>
+  </g>
+  <polygon points="550,548 560,560 550,572 540,560" fill="#B48B3C"/>
+
+  <text x="550" y="670" text-anchor="middle" class="soft" font-size="50" fill="#E8D9B8">I am NOT drinking</text>
+  <text x="550" y="735" text-anchor="middle" class="soft" font-size="50" fill="#E8D9B8">any fucking</text>
+
+  <!-- big MERLOT in oxblood -->
+  <text x="550" y="930" text-anchor="middle" class="bang" font-size="200" fill="#6E1F1A" letter-spacing="8">MERLOT.</text>
+
+  <!-- lower flourish -->
+  <g transform="translate(550,1060)" stroke="#B48B3C" stroke-width="1.5" fill="none">
+    <path d="M -120 0 Q -60 -18 0 0 Q 60 18 120 0"/>
+    <circle cx="0" cy="0" r="3" fill="#B48B3C" stroke="none"/>
+  </g>
+
+  <text x="550" y="1200" text-anchor="middle" class="attrib" font-size="26" fill="#C9A961">MILES RAYMOND</text>
+  <text x="550" y="1250" text-anchor="middle" class="small" font-size="18" fill="#C9A961">SANTA YNEZ VALLEY · CALIFORNIA</text>
+</svg>

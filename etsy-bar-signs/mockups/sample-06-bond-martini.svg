@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1400" role="img" aria-label="Bond vodka martini bar sign">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=IM+Fell+English:ital@0;1&amp;family=Cinzel:wght@400;600;700&amp;display=swap');
+      .lead   { font-family: 'Cinzel', serif; letter-spacing: 10px; }
+      .quote  { font-family: 'Playfair Display', serif; font-weight: 700; }
+      .soft   { font-family: 'IM Fell English', serif; font-style: italic; }
+      .attrib { font-family: 'Cinzel', serif; font-weight: 700; letter-spacing: 14px; }
+      .small  { font-family: 'Cinzel', serif; letter-spacing: 6px; }
+    </style>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#20140B"/>
+      <stop offset="50%"  stop-color="#2F2014"/>
+      <stop offset="100%" stop-color="#22160C"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.3" numOctaves="2" seed="31" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.08  0 0 0 0 0.05  0 0 0 0 0.03  0 0 0 0.22 0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="50%" r="72%">
+      <stop offset="55%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.65"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1100" height="1400" fill="url(#wood)"/>
+  <rect width="1100" height="1400" fill="#2A1A10" filter="url(#grain)" opacity="0.55"/>
+  <g stroke="#0A0604" stroke-width="1" opacity="0.35">
+    <line x1="0" y1="240"  x2="1100" y2="234"/>
+    <line x1="0" y1="520"  x2="1100" y2="527"/>
+    <line x1="0" y1="800"  x2="1100" y2="793"/>
+    <line x1="0" y1="1080" x2="1100" y2="1086"/>
+  </g>
+  <rect width="1100" height="1400" fill="url(#vig)"/>
+
+  <!-- thin elegant border -->
+  <rect x="60" y="60" width="980" height="1280" fill="none" stroke="#B48B3C" stroke-width="1"/>
+  <rect x="78" y="78" width="944" height="1244" fill="none" stroke="#B48B3C" stroke-width="0.5"/>
+
+  <!-- martini glass ornament -->
+  <g transform="translate(550,260)" fill="none" stroke="#B48B3C" stroke-width="2.2">
+    <path d="M -60 -40 L 60 -40 L 0 30 Z"/>
+    <line x1="0" y1="30" x2="0" y2="75"/>
+    <line x1="-30" y1="75" x2="30" y2="75"/>
+    <circle cx="18" cy="-12" r="5" fill="#B48B3C"/>
+  </g>
+
+  <text x="550" y="430" text-anchor="middle" class="lead" font-size="16" fill="#B48B3C">— A STANDING ORDER —</text>
+
+  <!-- quote -->
+  <text x="550" y="600" text-anchor="middle" class="quote" font-size="110" fill="#F2E4C4">Vodka Martini.</text>
+
+  <!-- divider -->
+  <g stroke="#B48B3C" stroke-width="1">
+    <line x1="250" y1="720" x2="500" y2="720"/>
+    <line x1="600" y1="720" x2="850" y2="720"/>
+  </g>
+  <polygon points="550,708 562,720 550,732 538,720" fill="#B48B3C"/>
+
+  <text x="550" y="870" text-anchor="middle" class="soft" font-size="72" fill="#E8D9B8">Shaken,</text>
+  <text x="550" y="970" text-anchor="middle" class="soft" font-size="72" fill="#E8D9B8">not stirred.</text>
+
+  <!-- lower rule -->
+  <line x1="350" y1="1110" x2="750" y2="1110" stroke="#B48B3C" stroke-width="0.8"/>
+
+  <text x="550" y="1200" text-anchor="middle" class="attrib" font-size="22" fill="#C9A961">THE WORLD'S</text>
+  <text x="550" y="1240" text-anchor="middle" class="attrib" font-size="22" fill="#C9A961">MOST FAMOUS SPY</text>
+  <text x="550" y="1290" text-anchor="middle" class="small" font-size="16" fill="#C9A961">— AS ORDERED AT EVERY BAR WORTH KNOWING —</text>
+</svg>

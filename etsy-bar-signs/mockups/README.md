@@ -6,11 +6,19 @@ Open any `.svg` file in a web browser (Chrome, Safari, Firefox) to see it render
 
 ## What's here
 
-| File | Sign | Style | Purpose |
+### Wave 1 (launch collection — 9 of 10 below, Coughlin's Laws uses the existing sign)
+
+| File | Sign | Style | Size |
 |---|---|---|---|
-| `sample-01-daltons-rules.svg` | Dalton's Rules (R2) | Style A — full dark walnut stain | Validates rules-sign format |
-| `sample-02-lloyd-shining.svg` | Lloyd "Your money's no good here" (#2) | Style A — full dark walnut stain | Validates horror/classy vibe |
-| `sample-03-tombstone.svg` | Tombstone "Hell's coming with me" (#7) | Style B — exposed pine grain | Validates western / light-wood variant |
+| `sample-01-daltons-rules.svg` | Dalton's Rules (R2) | A — dark walnut | 12×12 square |
+| `sample-02-lloyd-shining.svg` | Lloyd "Your money's no good here" (#2) | A — dark walnut | 11×14 portrait |
+| `sample-03-tombstone.svg` | Tombstone "Hell's coming with me" (#7) | B — exposed pine | 11×14 portrait |
+| `sample-04-casablanca-gin-joints.svg` | Casablanca "Of all the gin joints" (#12) | A — dark walnut + art deco | 11×14 portrait |
+| `sample-05-animal-house.svg` | Animal House "start drinking heavily" (#3) | A — dark walnut | 11×14 portrait |
+| `sample-06-bond-martini.svg` | Bond "Vodka martini. Shaken, not stirred." (#9) | A — dark walnut | 11×14 portrait |
+| `sample-07-sideways-merlot.svg` | Sideways Merlot (#8) | A — dark walnut + oxblood | 11×14 portrait |
+| `sample-08-dude-abides.svg` | The Dude abides (#14) | B — exposed pine | 12×12 square |
+| `sample-09-ferris-bueller.svg` | Ferris Bueller "Life moves pretty fast" (#11) | B — exposed pine | 12×18 landscape |
 
 ## Exporting for Printify (once we finalize)
 

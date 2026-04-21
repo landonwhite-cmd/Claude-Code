@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" role="img" aria-label="Ferris Bueller life moves pretty fast bar sign">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=IM+Fell+English:ital@0;1&amp;family=Cinzel:wght@400;600;700&amp;display=swap');
+      .lead   { font-family: 'Cinzel', serif; letter-spacing: 10px; }
+      .quote  { font-family: 'Playfair Display', serif; font-weight: 700; font-style: italic; }
+      .soft   { font-family: 'IM Fell English', serif; font-style: italic; }
+      .attrib { font-family: 'Cinzel', serif; font-weight: 700; letter-spacing: 12px; }
+      .small  { font-family: 'Cinzel', serif; letter-spacing: 6px; }
+    </style>
+    <linearGradient id="pine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#D4B684"/>
+      <stop offset="30%"  stop-color="#C09963"/>
+      <stop offset="55%"  stop-color="#B88A56"/>
+      <stop offset="80%"  stop-color="#C49A65"/>
+      <stop offset="100%" stop-color="#A67C49"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="61" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.35  0 0 0 0 0.25  0 0 0 0 0.13  0 0 0 0.22 0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="50%" r="65%">
+      <stop offset="55%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#2A1A0A" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1800" height="1200" fill="url(#pine)"/>
+  <rect width="1800" height="1200" fill="#C09963" filter="url(#grain)" opacity="0.55"/>
+  <g stroke="#5A3B1E" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="180"  x2="1800" y2="170"/>
+    <line x1="0" y1="400"  x2="1800" y2="410"/>
+    <line x1="0" y1="620"  x2="1800" y2="613"/>
+    <line x1="0" y1="840"  x2="1800" y2="850"/>
+    <line x1="0" y1="1020" x2="1800" y2="1012"/>
+  </g>
+  <rect width="1800" height="1200" fill="url(#vig)"/>
+
+  <rect x="50" y="50" width="1700" height="1100" fill="none" stroke="#1A1410" stroke-width="3"/>
+  <rect x="66" y="66" width="1668" height="1068" fill="none" stroke="#1A1410" stroke-width="1"/>
+
+  <!-- top ornament: sparse horizontal line with dot -->
+  <g transform="translate(900,145)" stroke="#1A1410" stroke-width="1.5" fill="none">
+    <line x1="-150" y1="0" x2="-18" y2="0"/>
+    <line x1="150" y1="0" x2="18" y2="0"/>
+    <circle r="5" fill="#1A1410" stroke="none"/>
+  </g>
+
+  <text x="900" y="215" text-anchor="middle" class="lead" font-size="18" fill="#1A1410">— A REMINDER —</text>
+
+  <!-- quote line 1 (hero) -->
+  <text x="900" y="400" text-anchor="middle" class="quote" font-size="96" fill="#1A1410">Life moves pretty fast.</text>
+
+  <!-- divider -->
+  <g stroke="#1A1410" stroke-width="1.2">
+    <line x1="400" y1="470" x2="820" y2="470"/>
+    <line x1="980" y1="470" x2="1400" y2="470"/>
+  </g>
+  <polygon points="900,458 912,470 900,482 888,470" fill="#1A1410"/>
+
+  <!-- rest of quote in softer italic -->
+  <text x="900" y="595" text-anchor="middle" class="soft" font-size="60" fill="#1A1410">If you don't stop and look around once in a while,</text>
+  <text x="900" y="680" text-anchor="middle" class="soft" font-size="60" fill="#1A1410">you could miss it.</text>
+
+  <!-- lower flourish -->
+  <g transform="translate(900,820)" stroke="#1A1410" stroke-width="1.5" fill="none">
+    <path d="M -180 0 Q -90 -24 0 0 Q 90 24 180 0"/>
+    <circle cx="0" cy="0" r="4" fill="#1A1410" stroke="none"/>
+  </g>
+
+  <text x="900" y="980" text-anchor="middle" class="attrib" font-size="28" fill="#1A1410">FERRIS BUELLER</text>
+  <text x="900" y="1040" text-anchor="middle" class="small" font-size="18" fill="#1A1410">SHERMER HIGH SCHOOL · ILLINOIS</text>
+</svg>

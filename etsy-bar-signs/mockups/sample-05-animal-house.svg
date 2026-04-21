@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1400" role="img" aria-label="Animal House start drinking heavily bar sign">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,700;1,900&amp;family=IM+Fell+English:ital@0;1&amp;family=Cinzel:wght@400;600;700&amp;display=swap');
+      .lead   { font-family: 'Cinzel', serif; letter-spacing: 8px; }
+      .quote  { font-family: 'Playfair Display', serif; font-weight: 900; }
+      .accent { font-family: 'Playfair Display', serif; font-weight: 900; font-style: italic; }
+      .attrib { font-family: 'Cinzel', serif; font-weight: 700; letter-spacing: 12px; }
+      .small  { font-family: 'Cinzel', serif; letter-spacing: 6px; }
+    </style>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#2B1C12"/>
+      <stop offset="50%"  stop-color="#3A2A1D"/>
+      <stop offset="100%" stop-color="#2E1F14"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="2" seed="22" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.10  0 0 0 0 0.07  0 0 0 0 0.04  0 0 0 0.22 0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="50%" r="72%">
+      <stop offset="55%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1100" height="1400" fill="url(#wood)"/>
+  <rect width="1100" height="1400" fill="#3B2B1F" filter="url(#grain)" opacity="0.55"/>
+  <g stroke="#1A1008" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="220"  x2="1100" y2="213"/>
+    <line x1="0" y1="480"  x2="1100" y2="488"/>
+    <line x1="0" y1="740"  x2="1100" y2="734"/>
+    <line x1="0" y1="1000" x2="1100" y2="1008"/>
+    <line x1="0" y1="1240" x2="1100" y2="1234"/>
+  </g>
+  <rect width="1100" height="1400" fill="url(#vig)"/>
+
+  <rect x="50" y="50" width="1000" height="1300" fill="none" stroke="#B48B3C" stroke-width="2.5"/>
+  <rect x="66" y="66" width="968" height="1268" fill="none" stroke="#B48B3C" stroke-width="1"/>
+
+  <!-- collegiate crest / laurel -->
+  <g transform="translate(550,185)" fill="none" stroke="#B48B3C" stroke-width="1.8">
+    <path d="M -50 10 Q -40 -20 -15 -20 M -50 10 Q -55 -15 -35 -30"/>
+    <path d="M 50 10 Q 40 -20 15 -20 M 50 10 Q 55 -15 35 -30"/>
+    <line x1="-12" y1="-5" x2="12" y2="-5"/>
+    <circle r="4" fill="#B48B3C" stroke="none"/>
+  </g>
+
+  <text x="550" y="280" text-anchor="middle" class="lead" font-size="16" fill="#B48B3C">— FROM THE DESK OF THE DEAN —</text>
+
+  <!-- quote -->
+  <text x="550" y="460" text-anchor="middle" class="quote" font-size="72" fill="#F2E4C4">My advice</text>
+  <text x="550" y="555" text-anchor="middle" class="quote" font-size="72" fill="#F2E4C4">to you is</text>
+  <text x="550" y="650" text-anchor="middle" class="quote" font-size="72" fill="#F2E4C4">to start drinking</text>
+
+  <!-- divider -->
+  <g stroke="#B48B3C" stroke-width="1.2">
+    <line x1="240" y1="750" x2="500" y2="750"/>
+    <line x1="600" y1="750" x2="860" y2="750"/>
+  </g>
+  <polygon points="550,738 562,750 550,762 538,750" fill="#B48B3C"/>
+
+  <!-- accent word -->
+  <text x="550" y="900" text-anchor="middle" class="accent" font-size="130" fill="#B48B3C">heavily.</text>
+
+  <!-- lower ornament -->
+  <g transform="translate(550,1050)" fill="#B48B3C">
+    <polygon points="0,-12 4,-4 12,-4 5,2 8,12 0,6 -8,12 -5,2 -12,-4 -4,-4"/>
+  </g>
+
+  <text x="550" y="1200" text-anchor="middle" class="attrib" font-size="26" fill="#C9A961">DEAN VERNON WORMER</text>
+  <text x="550" y="1250" text-anchor="middle" class="small" font-size="18" fill="#C9A961">FABER COLLEGE · OFFICE OF THE DEAN</text>
+</svg>

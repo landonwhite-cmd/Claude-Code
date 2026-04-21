@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="The Dude abides bar sign">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=IM+Fell+English:ital@0;1&amp;family=Cinzel:wght@400;600;700&amp;display=swap');
+      .lead   { font-family: 'Cinzel', serif; letter-spacing: 10px; }
+      .quote  { font-family: 'Playfair Display', serif; font-weight: 900; font-style: italic; }
+      .attrib { font-family: 'Cinzel', serif; font-weight: 700; letter-spacing: 10px; }
+      .small  { font-family: 'Cinzel', serif; letter-spacing: 6px; }
+    </style>
+    <linearGradient id="pine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#D4B684"/>
+      <stop offset="30%"  stop-color="#C09963"/>
+      <stop offset="55%"  stop-color="#B88A56"/>
+      <stop offset="80%"  stop-color="#C49A65"/>
+      <stop offset="100%" stop-color="#A67C49"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="53" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.35  0 0 0 0 0.25  0 0 0 0 0.13  0 0 0 0.22 0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="50%" r="70%">
+      <stop offset="55%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#2A1A0A" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#pine)"/>
+  <rect width="1200" height="1200" fill="#C09963" filter="url(#grain)" opacity="0.55"/>
+  <g stroke="#5A3B1E" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="180"  x2="1200" y2="170"/>
+    <line x1="0" y1="400"  x2="1200" y2="410"/>
+    <line x1="0" y1="620"  x2="1200" y2="613"/>
+    <line x1="0" y1="840"  x2="1200" y2="850"/>
+    <line x1="0" y1="1020" x2="1200" y2="1012"/>
+  </g>
+  <g transform="translate(200,780)" opacity="0.5">
+    <ellipse rx="32" ry="20" fill="#5A3B1E"/>
+    <ellipse rx="16" ry="10" fill="#3A260F"/>
+  </g>
+  <rect width="1200" height="1200" fill="url(#vig)"/>
+
+  <rect x="50" y="50" width="1100" height="1100" fill="none" stroke="#1A1410" stroke-width="3"/>
+  <rect x="66" y="66" width="1068" height="1068" fill="none" stroke="#1A1410" stroke-width="1"/>
+
+  <!-- simple rug-pattern divider at top -->
+  <g transform="translate(600,150)" stroke="#1A1410" stroke-width="1.5" fill="none">
+    <path d="M -60 0 L -40 -10 L -20 0 L 0 -10 L 20 0 L 40 -10 L 60 0"/>
+    <path d="M -60 8 L -40 18 L -20 8 L 0 18 L 20 8 L 40 18 L 60 8"/>
+  </g>
+
+  <text x="600" y="260" text-anchor="middle" class="lead" font-size="20" fill="#1A1410">— A DECLARATION —</text>
+
+  <!-- quote -->
+  <text x="600" y="530" text-anchor="middle" class="quote" font-size="180" fill="#1A1410">The Dude</text>
+  <text x="600" y="730" text-anchor="middle" class="quote" font-size="180" fill="#1A1410">abides.</text>
+
+  <!-- divider -->
+  <g transform="translate(600,870)" stroke="#1A1410" stroke-width="1.5" fill="none">
+    <path d="M -60 0 L -40 -10 L -20 0 L 0 -10 L 20 0 L 40 -10 L 60 0"/>
+  </g>
+
+  <text x="600" y="1030" text-anchor="middle" class="attrib" font-size="24" fill="#1A1410">JEFFREY "THE DUDE" LEBOWSKI</text>
+  <text x="600" y="1080" text-anchor="middle" class="small" font-size="16" fill="#1A1410">LOS ANGELES · CA</text>
+</svg>
