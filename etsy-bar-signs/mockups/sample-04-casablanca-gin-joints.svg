@@ -58,8 +58,6 @@
     <line x1="60" y1="0" x2="35" y2="0" stroke-width="1"/>
   </g>
 
-  <text x="550" y="290" text-anchor="middle" class="lead" font-size="18" fill="#B48B3C">— AT THE CAFÉ —</text>
-
   <!-- quote lines -->
   <text x="550" y="440" text-anchor="middle" class="quote" font-size="72" fill="#F2E4C4">Of all the gin joints</text>
   <text x="550" y="530" text-anchor="middle" class="quote" font-size="72" fill="#F2E4C4">in all the towns</text>

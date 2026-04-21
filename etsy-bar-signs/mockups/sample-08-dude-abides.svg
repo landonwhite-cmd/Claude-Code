@@ -49,8 +49,6 @@
     <path d="M -60 8 L -40 18 L -20 8 L 0 18 L 20 8 L 40 18 L 60 8"/>
   </g>
 
-  <text x="600" y="260" text-anchor="middle" class="lead" font-size="20" fill="#1A1410">— A DECLARATION —</text>
-
   <!-- quote -->
   <text x="600" y="530" text-anchor="middle" class="quote" font-size="180" fill="#1A1410">The Dude</text>
   <text x="600" y="730" text-anchor="middle" class="quote" font-size="180" fill="#1A1410">abides.</text>

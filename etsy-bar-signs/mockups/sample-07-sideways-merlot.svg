@@ -49,8 +49,6 @@
     <line x1="40" y1="-35" x2="58" y2="-35" stroke-width="3"/>
   </g>
 
-  <text x="550" y="280" text-anchor="middle" class="lead" font-size="16" fill="#B48B3C">— A SACRED RULE —</text>
-
   <!-- quote -->
   <text x="550" y="430" text-anchor="middle" class="quote" font-size="50" fill="#F2E4C4">If anyone orders Merlot,</text>
   <text x="550" y="490" text-anchor="middle" class="quote" font-size="50" fill="#F2E4C4">I'm leaving.</text>

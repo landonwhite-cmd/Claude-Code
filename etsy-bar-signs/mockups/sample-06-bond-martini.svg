@@ -46,8 +46,6 @@
     <circle cx="18" cy="-12" r="5" fill="#B48B3C"/>
   </g>
 
-  <text x="550" y="430" text-anchor="middle" class="lead" font-size="16" fill="#B48B3C">— A STANDING ORDER —</text>
-
   <!-- quote -->
   <text x="550" y="600" text-anchor="middle" class="quote" font-size="110" fill="#F2E4C4">Vodka Martini.</text>
 
