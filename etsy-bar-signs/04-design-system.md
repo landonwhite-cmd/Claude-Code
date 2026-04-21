@@ -161,9 +161,9 @@ Our SVG files will be directly usable for CNC and laser production — the partn
 
 We'll nail this down in the branding doc, but the visual system above should feel like:
 
-- **Shop name candidates** (we'll decide later): *The Last Call Sign Co.*, *Coughlin & Co.*, *Lloyd's Supply Co.*, *The Gin Joint Sign Co.*
+- **Shop name:** **The Scripted Pour** — *"Where the movies meet the bar."*
 - **Voice:** "Smart bartender who's seen every movie" — not "fan merch seller"
-- **Packaging concept:** kraft cardboard + twine + a printed character card ("a brief history of the quote")
+- **Packaging concept:** kraft cardboard + twine + a printed insert card (see `05-shop-identity.md`)
 
 ---
 

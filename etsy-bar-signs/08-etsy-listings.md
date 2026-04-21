@@ -20,7 +20,7 @@ Title, tags, and description for each sign. Optimized for Etsy search.
 [QUOTE block — set in quotes, italic if Etsy allowed, with attribution]
 
 [COLLECTION LINE — always same]
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 [MATERIAL / PRODUCTION]
 Printed on real birch wood panels in the USA. Keyhole hanger included. Made to order — production 3-5 business days.
@@ -58,7 +58,7 @@ For the home bar that takes itself a little too seriously.
 Orders from the house."
 — LLOYD · THE OVERLOOK HOTEL · BARTENDER
 
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 —
 
@@ -106,7 +106,7 @@ in all the world,
 she walks into mine."
 — RICK BLAINE · CAFÉ AMÉRICAIN · CASABLANCA
 
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 —
 
@@ -151,7 +151,7 @@ For the bar where the whiskey is neat and the lights are low.
 — and hell's coming with me."
 — WYATT EARP · TOMBSTONE · ARIZONA TERRITORY
 
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 —
 
@@ -197,7 +197,7 @@ to start drinking
 heavily."
 — DEAN VERNON WORMER · FABER COLLEGE · OFFICE OF THE DEAN
 
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 —
 
@@ -242,7 +242,7 @@ For the bar that pours a proper martini.
 Shaken, not stirred."
 — THE WORLD'S MOST FAMOUS SPY · AS ORDERED AT EVERY BAR WORTH KNOWING
 
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 —
 
@@ -289,7 +289,7 @@ I am NOT drinking
 any fucking MERLOT."
 — MILES RAYMOND · SANTA YNEZ VALLEY · CALIFORNIA
 
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 —
 
@@ -338,7 +338,7 @@ For the bar that stays mellow.
 abides."
 — JEFFREY "THE DUDE" LEBOWSKI · LOS ANGELES · CA
 
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 —
 
@@ -384,7 +384,7 @@ If you don't stop and look around once in a while,
 you could miss it."
 — FERRIS BUELLER · SHERMER HIGH SCHOOL · ILLINOIS
 
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 —
 
@@ -432,7 +432,7 @@ III. Be nice. Remain polite — until it is time to not be nice.
 
 — AS LAID DOWN AT THE DOUBLE DEUCE
 
-From the Lloyd & Sons collection of movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
+From The Scripted Pour — movie-quote bar signs for home bars, man caves, and anywhere a decent drink gets poured.
 
 —
 
