@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1400" role="img" aria-label="Lloyd the Bartender bar sign">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=IM+Fell+English:ital@0;1&amp;family=Cinzel:wght@400;600;700&amp;display=swap');
+      .headline  { font-family: 'Playfair Display', serif; font-weight: 700; font-style: italic; }
+      .sub       { font-family: 'IM Fell English', serif; font-style: italic; }
+      .attrib    { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 12px; }
+      .small     { font-family: 'Cinzel', serif; letter-spacing: 6px; }
+    </style>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#2B1C12"/>
+      <stop offset="45%"  stop-color="#3A2A1D"/>
+      <stop offset="60%"  stop-color="#2C1E14"/>
+      <stop offset="100%" stop-color="#382619"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="2" seed="11" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.10  0 0 0 0 0.07  0 0 0 0 0.04  0 0 0 0.25 0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="50%" r="72%">
+      <stop offset="55%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+
+  <!-- wood -->
+  <rect width="1100" height="1400" fill="url(#wood)"/>
+  <rect width="1100" height="1400" fill="#3B2B1F" filter="url(#grain)" opacity="0.55"/>
+  <g stroke="#1A1008" stroke-width="1" opacity="0.35">
+    <line x1="0" y1="160"  x2="1100" y2="168"/>
+    <line x1="0" y1="360"  x2="1100" y2="355"/>
+    <line x1="0" y1="560"  x2="1100" y2="566"/>
+    <line x1="0" y1="760"  x2="1100" y2="755"/>
+    <line x1="0" y1="960"  x2="1100" y2="967"/>
+    <line x1="0" y1="1160" x2="1100" y2="1153"/>
+  </g>
+  <rect width="1100" height="1400" fill="url(#vig)"/>
+
+  <!-- single thin oxblood frame -->
+  <rect x="50" y="50" width="1000" height="1300" fill="none" stroke="#6E1F1A" stroke-width="2"/>
+  <rect x="66" y="66" width="968"  height="1268" fill="none" stroke="#B48B3C" stroke-width="1"/>
+
+  <!-- top ornament: a simple apothecary-style rosette -->
+  <g transform="translate(550,200)" fill="none" stroke="#B48B3C" stroke-width="2">
+    <circle r="26"/>
+    <circle r="14"/>
+    <line x1="-40" y1="0" x2="-28" y2="0"/>
+    <line x1="40"  y1="0" x2="28"  y2="0"/>
+    <line x1="0" y1="-40" x2="0" y2="-28"/>
+    <line x1="0" y1="40"  x2="0" y2="28"/>
+  </g>
+
+  <!-- opening dash -->
+  <text x="550" y="320" text-anchor="middle" class="small" font-size="18" fill="#B48B3C">— ON THE HOUSE —</text>
+
+  <!-- quote -->
+  <text x="550" y="500" text-anchor="middle" class="headline" font-size="80" fill="#F2E4C4">Your money's</text>
+  <text x="550" y="595" text-anchor="middle" class="headline" font-size="80" fill="#F2E4C4">no good here, sir.</text>
+
+  <!-- divider -->
+  <g stroke="#B48B3C" stroke-width="1.2">
+    <line x1="300" y1="700" x2="500" y2="700"/>
+    <line x1="600" y1="700" x2="800" y2="700"/>
+  </g>
+  <polygon points="550,688 560,700 550,712 540,700" fill="#B48B3C"/>
+
+  <!-- second clause in more delicate italic -->
+  <text x="550" y="830" text-anchor="middle" class="sub" font-size="58" fill="#E8D9B8">Orders from</text>
+  <text x="550" y="900" text-anchor="middle" class="sub" font-size="58" fill="#E8D9B8">the house.</text>
+
+  <!-- lower ornament -->
+  <g transform="translate(550,1080)" fill="#6E1F1A" stroke="#B48B3C" stroke-width="1.5">
+    <polygon points="0,-12 4,-4 12,-4 5,2 8,12 0,6 -8,12 -5,2 -12,-4 -4,-4"/>
+  </g>
+
+  <!-- attribution -->
+  <text x="550" y="1200" text-anchor="middle" class="attrib" font-size="28" fill="#C9A961">LLOYD</text>
+  <text x="550" y="1250" text-anchor="middle" class="small" font-size="18" fill="#C9A961">THE OVERLOOK HOTEL · BARTENDER</text>
+</svg>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1400" role="img" aria-label="Tombstone Hell's coming with me bar sign">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Rye&amp;family=Playfair+Display:ital,wght@0,700;0,900;1,700&amp;family=IM+Fell+English:ital@0;1&amp;family=Cinzel:wght@400;600;700&amp;display=swap');
+      .western   { font-family: 'Rye', serif; }
+      .display   { font-family: 'Playfair Display', serif; font-weight: 900; }
+      .italic    { font-family: 'IM Fell English', serif; font-style: italic; }
+      .attrib    { font-family: 'Cinzel', serif; font-weight: 700; letter-spacing: 12px; }
+      .small     { font-family: 'Cinzel', serif; letter-spacing: 6px; }
+    </style>
+    <!-- Natural pine / light oak substrate -->
+    <linearGradient id="pine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#D4B684"/>
+      <stop offset="30%"  stop-color="#C09963"/>
+      <stop offset="55%"  stop-color="#B88A56"/>
+      <stop offset="80%"  stop-color="#C49A65"/>
+      <stop offset="100%" stop-color="#A67C49"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.35  0 0 0 0 0.25  0 0 0 0 0.13  0 0 0 0.22 0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="50%" r="70%">
+      <stop offset="55%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#2A1A0A" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <!-- pine substrate -->
+  <rect width="1100" height="1400" fill="url(#pine)"/>
+  <rect width="1100" height="1400" fill="#C09963" filter="url(#grain)" opacity="0.55"/>
+  <!-- grain lines, darker on pine -->
+  <g stroke="#5A3B1E" stroke-width="1" opacity="0.35">
+    <line x1="0" y1="180"  x2="1100" y2="172"/>
+    <line x1="0" y1="340"  x2="1100" y2="348"/>
+    <line x1="0" y1="520"  x2="1100" y2="515"/>
+    <line x1="0" y1="720"  x2="1100" y2="726"/>
+    <line x1="0" y1="920"  x2="1100" y2="912"/>
+    <line x1="0" y1="1120" x2="1100" y2="1128"/>
+  </g>
+  <!-- knot -->
+  <g transform="translate(920,1180)" opacity="0.5">
+    <ellipse rx="28" ry="18" fill="#5A3B1E"/>
+    <ellipse rx="14" ry="9"  fill="#3A260F"/>
+  </g>
+  <rect width="1100" height="1400" fill="url(#vig)"/>
+
+  <!-- branded border (dark ink burn) -->
+  <rect x="50" y="50" width="1000" height="1300" fill="none" stroke="#1A1410" stroke-width="3"/>
+  <rect x="66" y="66" width="968"  height="1268" fill="none" stroke="#1A1410" stroke-width="1"/>
+
+  <!-- sheriff star, top -->
+  <g transform="translate(550,180)" fill="#1A1410">
+    <polygon points="0,-42 10,-12 42,-12 16,6 26,38 0,20 -26,38 -16,6 -42,-12 -10,-12"/>
+    <circle cx="0" cy="0" r="4" fill="#C09963"/>
+  </g>
+
+  <!-- "YOU TELL 'EM" small lead -->
+  <text x="550" y="330" text-anchor="middle" class="small" font-size="22" fill="#1A1410">— HE SAID —</text>
+
+  <!-- Main quote line 1, western -->
+  <text x="550" y="470" text-anchor="middle" class="western" font-size="78" fill="#1A1410">You tell 'em</text>
+  <text x="550" y="565" text-anchor="middle" class="western" font-size="78" fill="#1A1410">I'm coming...</text>
+
+  <!-- divider -->
+  <g stroke="#1A1410" stroke-width="1.5">
+    <line x1="280" y1="660" x2="490" y2="660"/>
+    <line x1="610" y1="660" x2="820" y2="660"/>
+  </g>
+  <polygon points="550,648 562,660 550,672 538,660" fill="#1A1410"/>
+
+  <!-- "and hell's coming with me" — bigger, italic -->
+  <text x="550" y="790" text-anchor="middle" class="italic" font-size="62" fill="#1A1410">and hell's coming</text>
+  <text x="550" y="875" text-anchor="middle" class="display" font-style="italic" font-size="88" fill="#6E1F1A">with me.</text>
+
+  <!-- lower flourish -->
+  <g transform="translate(550,1020)" stroke="#1A1410" stroke-width="2" fill="none">
+    <path d="M -120 0 Q -60 -20 0 0 Q 60 20 120 0"/>
+    <circle cx="0" cy="0" r="4" fill="#1A1410" stroke="none"/>
+  </g>
+
+  <!-- attribution -->
+  <text x="550" y="1200" text-anchor="middle" class="attrib" font-size="30" fill="#1A1410">WYATT EARP</text>
+  <text x="550" y="1250" text-anchor="middle" class="small" font-size="18" fill="#1A1410">TOMBSTONE · ARIZONA TERRITORY</text>
+</svg>

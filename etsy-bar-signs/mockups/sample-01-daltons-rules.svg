@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Dalton's Rules bar sign">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=IM+Fell+English:ital@0;1&amp;family=Cinzel:wght@400;600;700&amp;display=swap');
+      .title   { font-family: 'Playfair Display', serif; font-weight: 900; letter-spacing: 6px; }
+      .rule-lead { font-family: 'Playfair Display', serif; font-weight: 700; }
+      .rule-body { font-family: 'IM Fell English', serif; font-style: italic; }
+      .numeral   { font-family: 'Cinzel', serif; font-weight: 700; }
+      .attrib    { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 10px; }
+    </style>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#2A1C12"/>
+      <stop offset="40%"  stop-color="#3B2B1F"/>
+      <stop offset="60%"  stop-color="#2F2118"/>
+      <stop offset="100%" stop-color="#3B2B1F"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.2" numOctaves="2" seed="7" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.12  0 0 0 0 0.09  0 0 0 0 0.06  0 0 0 0.22 0"/>
+    </filter>
+    <filter id="vignette">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="50%" r="70%">
+      <stop offset="60%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+
+  <!-- wood substrate -->
+  <rect width="1200" height="1200" fill="url(#wood)"/>
+  <rect width="1200" height="1200" fill="#3B2B1F" filter="url(#grain)" opacity="0.6"/>
+  <!-- horizontal grain lines -->
+  <g stroke="#1F150D" stroke-width="1" opacity="0.35">
+    <line x1="0" y1="140" x2="1200" y2="148"/>
+    <line x1="0" y1="310" x2="1200" y2="305"/>
+    <line x1="0" y1="500" x2="1200" y2="505"/>
+    <line x1="0" y1="690" x2="1200" y2="695"/>
+    <line x1="0" y1="880" x2="1200" y2="872"/>
+    <line x1="0" y1="1050" x2="1200" y2="1055"/>
+  </g>
+  <rect width="1200" height="1200" fill="url(#vig)"/>
+
+  <!-- double gold border -->
+  <rect x="44"  y="44"  width="1112" height="1112" fill="none" stroke="#B48B3C" stroke-width="2.5"/>
+  <rect x="62"  y="62"  width="1076" height="1076" fill="none" stroke="#B48B3C" stroke-width="1"/>
+
+  <!-- title ornament (top star) -->
+  <g transform="translate(600,135)" fill="#B48B3C">
+    <polygon points="0,-18 5,-5 18,-5 7,3 12,16 0,8 -12,16 -7,3 -18,-5 -5,-5"/>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="230" text-anchor="middle" class="title" font-size="88" fill="#F2E4C4">DALTON'S RULES</text>
+
+  <!-- title divider -->
+  <g stroke="#B48B3C" stroke-width="1.5">
+    <line x1="260" y1="270" x2="555" y2="270"/>
+    <line x1="645" y1="270" x2="940" y2="270"/>
+  </g>
+  <polygon points="600,258 610,270 600,282 590,270" fill="#B48B3C"/>
+
+  <!-- RULE I -->
+  <text x="160" y="410" class="numeral" font-size="64" fill="#B48B3C">I.</text>
+  <text x="250" y="400" class="rule-lead" font-size="42" fill="#F2E4C4">Never underestimate</text>
+  <text x="250" y="450" class="rule-lead" font-size="42" fill="#F2E4C4">your opponent.</text>
+  <text x="250" y="500" class="rule-body" font-size="32" fill="#E8D9B8">Expect the unexpected.</text>
+
+  <!-- RULE II -->
+  <text x="160" y="620" class="numeral" font-size="64" fill="#B48B3C">II.</text>
+  <text x="250" y="610" class="rule-lead" font-size="42" fill="#F2E4C4">Take it outside.</text>
+  <text x="250" y="660" class="rule-body" font-size="32" fill="#E8D9B8">Never start anything inside the bar</text>
+  <text x="250" y="700" class="rule-body" font-size="32" fill="#E8D9B8">unless absolutely necessary.</text>
+
+  <!-- RULE III -->
+  <text x="160" y="820" class="numeral" font-size="64" fill="#B48B3C">III.</text>
+  <text x="250" y="810" class="rule-lead" font-size="42" fill="#F2E4C4">Be nice.</text>
+  <text x="250" y="860" class="rule-body" font-size="32" fill="#E8D9B8">Remain polite — until it is</text>
+  <text x="250" y="900" class="rule-body" font-size="32" fill="#E8D9B8">time to not be nice.</text>
+
+  <!-- bottom divider -->
+  <g stroke="#B48B3C" stroke-width="1">
+    <line x1="320" y1="1000" x2="555" y2="1000"/>
+    <line x1="645" y1="1000" x2="880" y2="1000"/>
+  </g>
+  <polygon points="600,990 607,1000 600,1010 593,1000" fill="#B48B3C"/>
+
+  <!-- attribution -->
+  <text x="600" y="1075" text-anchor="middle" class="attrib" font-size="22" fill="#C9A961">AS LAID DOWN AT THE DOUBLE DEUCE</text>
+</svg>
