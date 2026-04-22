@@ -29,8 +29,8 @@
 
   <line x1="500" y1="440" x2="1300" y2="440" stroke="#F2E4C4" stroke-width="0.6"/>
 
-  <text x="900" y="580" text-anchor="middle" class="soft" font-size="72" fill="#F2E4C4">If you don't stop and look around once in a while,</text>
-  <text x="900" y="670" text-anchor="middle" class="soft" font-size="72" fill="#F2E4C4">you could miss it."</text>
+  <text x="900" y="580" text-anchor="middle" class="soft" font-size="58" fill="#F2E4C4">If you don't stop and look around once in a while,</text>
+  <text x="900" y="660" text-anchor="middle" class="soft" font-size="58" fill="#F2E4C4">you could miss it."</text>
 
   <line x1="600" y1="900" x2="1200" y2="900" stroke="#F2E4C4" stroke-width="0.6"/>
   <text x="900" y="975" text-anchor="middle" class="attrib" font-size="24" fill="#F2E4C4">FERRIS BUELLER</text>

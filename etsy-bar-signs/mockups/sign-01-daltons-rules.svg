@@ -30,20 +30,20 @@
   <line x1="320" y1="275" x2="780" y2="275" stroke="#F2E4C4" stroke-width="0.8"/>
 
   <!-- Rule I -->
-  <text x="150" y="400" class="numeral" font-size="32" fill="#F2E4C4">I.</text>
-  <text x="210" y="400" class="rule-lead" font-size="50" fill="#F2E4C4">"Never underestimate your opponent.</text>
-  <text x="210" y="458" class="rule-lead" font-size="50" fill="#F2E4C4">Expect the unexpected."</text>
+  <text x="165" y="400" class="numeral" font-size="28" fill="#F2E4C4">I.</text>
+  <text x="220" y="400" class="rule-lead" font-size="44" fill="#F2E4C4">"Never underestimate your opponent.</text>
+  <text x="220" y="452" class="rule-lead" font-size="44" fill="#F2E4C4">Expect the unexpected."</text>
 
   <!-- Rule II -->
-  <text x="150" y="610" class="numeral" font-size="32" fill="#F2E4C4">II.</text>
-  <text x="210" y="610" class="rule-lead" font-size="50" fill="#F2E4C4">"Take it outside. Never start</text>
-  <text x="210" y="668" class="rule-lead" font-size="50" fill="#F2E4C4">anything inside the bar unless</text>
-  <text x="210" y="726" class="rule-lead" font-size="50" fill="#F2E4C4">absolutely necessary."</text>
+  <text x="165" y="610" class="numeral" font-size="28" fill="#F2E4C4">II.</text>
+  <text x="220" y="610" class="rule-lead" font-size="44" fill="#F2E4C4">"Take it outside. Never start</text>
+  <text x="220" y="662" class="rule-lead" font-size="44" fill="#F2E4C4">anything inside the bar unless</text>
+  <text x="220" y="714" class="rule-lead" font-size="44" fill="#F2E4C4">absolutely necessary."</text>
 
   <!-- Rule III -->
-  <text x="150" y="890" class="numeral" font-size="32" fill="#F2E4C4">III.</text>
-  <text x="210" y="890" class="rule-lead" font-size="50" fill="#F2E4C4">"Be nice. Remain polite until</text>
-  <text x="210" y="948" class="rule-lead" font-size="50" fill="#F2E4C4">it is time to not be nice."</text>
+  <text x="165" y="890" class="numeral" font-size="28" fill="#F2E4C4">III.</text>
+  <text x="220" y="890" class="rule-lead" font-size="44" fill="#F2E4C4">"Be nice. Remain polite until</text>
+  <text x="220" y="942" class="rule-lead" font-size="44" fill="#F2E4C4">it is time to not be nice."</text>
 
   <line x1="380" y1="1100" x2="720" y2="1100" stroke="#F2E4C4" stroke-width="0.6"/>
   <text x="550" y="1180" text-anchor="middle" class="attrib" font-size="20" fill="#F2E4C4">DALTON · THE DOUBLE DEUCE</text>
