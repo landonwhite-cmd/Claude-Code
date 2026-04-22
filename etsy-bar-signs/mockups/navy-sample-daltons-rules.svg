@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1400" role="img" aria-label="Dalton's Rules navy panel">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Limelight&amp;family=Cinzel:wght@400;600;700&amp;family=Caveat:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;display=swap');
+      .title  { font-family: 'Limelight', 'Cinzel', serif; letter-spacing: 8px; }
+      .rule-lead { font-family: 'Caveat', cursive; font-weight: 700; }
+      .rule-body { font-family: 'Caveat', cursive; font-weight: 400; }
+      .numeral   { font-family: 'Cinzel', serif; font-weight: 700; letter-spacing: 4px; }
+      .attrib    { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 10px; }
+    </style>
+  </defs>
+
+  <!-- midnight navy panel -->
+  <rect width="1100" height="1400" fill="#1A2238"/>
+  <!-- very subtle linen noise -->
+  <rect width="1100" height="1400" fill="#1A2238"/>
+
+  <!-- art deco border — outer line -->
+  <!-- top edge -->
+  <path d="M 110 90 L 840 90 L 870 110 L 900 90 L 990 90"
+        fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <!-- right edge -->
+  <path d="M 1010 110 L 1010 840 L 990 870 L 1010 900 L 1010 1290"
+        fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <!-- bottom edge -->
+  <path d="M 990 1310 L 260 1310 L 230 1290 L 200 1310 L 110 1310"
+        fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <!-- left edge -->
+  <path d="M 90 1290 L 90 560 L 110 530 L 90 500 L 90 110"
+        fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <!-- outer corner brackets (stepped) -->
+  <g stroke="#F2E4C4" stroke-width="1.5" fill="none">
+    <!-- top-left corner -->
+    <path d="M 110 90 L 110 60 L 70 60 L 70 110 L 90 110"/>
+    <!-- top-right corner -->
+    <path d="M 990 90 L 990 60 L 1030 60 L 1030 110 L 1010 110"/>
+    <!-- bottom-right corner -->
+    <path d="M 1010 1290 L 1030 1290 L 1030 1340 L 990 1340 L 990 1310"/>
+    <!-- bottom-left corner -->
+    <path d="M 90 1290 L 70 1290 L 70 1340 L 110 1340 L 110 1310"/>
+  </g>
+
+  <!-- inner line -->
+  <g stroke="#F2E4C4" stroke-width="0.8" fill="none">
+    <rect x="115" y="115" width="870" height="1170"/>
+  </g>
+
+  <!-- title -->
+  <text x="550" y="230" text-anchor="middle" class="title" font-size="80" fill="#F2E4C4">DALTON'S RULES</text>
+
+  <!-- title underline -->
+  <line x1="320" y1="280" x2="780" y2="280" stroke="#F2E4C4" stroke-width="0.8"/>
+
+  <!-- Rule I -->
+  <text x="150" y="410" class="numeral" font-size="36" fill="#F2E4C4">I.</text>
+  <text x="220" y="410" class="rule-lead" font-size="52" fill="#F2E4C4">"Never underestimate your opponent.</text>
+  <text x="220" y="470" class="rule-lead" font-size="52" fill="#F2E4C4">Expect the unexpected."</text>
+
+  <!-- Rule II -->
+  <text x="150" y="620" class="numeral" font-size="36" fill="#F2E4C4">II.</text>
+  <text x="220" y="620" class="rule-lead" font-size="52" fill="#F2E4C4">"Take it outside. Never start</text>
+  <text x="220" y="680" class="rule-lead" font-size="52" fill="#F2E4C4">anything inside the bar unless</text>
+  <text x="220" y="740" class="rule-lead" font-size="52" fill="#F2E4C4">absolutely necessary."</text>
+
+  <!-- Rule III -->
+  <text x="150" y="890" class="numeral" font-size="36" fill="#F2E4C4">III.</text>
+  <text x="220" y="890" class="rule-lead" font-size="52" fill="#F2E4C4">"Be nice. Remain polite until it</text>
+  <text x="220" y="950" class="rule-lead" font-size="52" fill="#F2E4C4">is time to not be nice."</text>
+
+  <!-- attribution -->
+  <text x="550" y="1210" text-anchor="middle" class="attrib" font-size="20" fill="#F2E4C4">— DALTON · THE DOUBLE DEUCE —</text>
+</svg>
