@@ -64,7 +64,7 @@ Cheers.
 Max ~160 chars. Pick one:
 
 1. *"New collection: movie-quote bar signs on real wood. Handmade, shipped from the US in 3–5 business days. Free US shipping."* (120 chars)
-2. *"Movie-quote bar signs on rustic wood. Where the movies meet the bar."* (70 chars — short and on-brand)
+2. *"Movie-quote bar signs on framed navy panels. Where the movies meet the bar."* (77 chars — short and on-brand)
 3. *"Launch sale: 15% off through [DATE]. Code POUROPENING. Movie-quote bar signs on real wood."* — use if you run a launch promo
 
 **Recommendation: #1.** Sells the proposition and the credibility (real wood, US fulfillment) without a discount crutch.
@@ -78,7 +78,7 @@ Max ~160 chars. Pick one:
 - **Short sentences. Imperatives when possible.** "Pour a drink." > "After hanging this sign, you can enjoy your beverage of choice."
 - **No emoji in listings or bio.** Emoji only in casual DMs.
 - **"We" not "I"** — sounds more like a shop, even if it's just you.
-- **Cinematic vocabulary is OK, movie-fandom vocabulary is not.** "Hand-composed" / "set in walnut" / "framed" = good. "Iconic scene" / "must-have" / "epic" = bad.
+- **Cinematic vocabulary is OK, movie-fandom vocabulary is not.** "Hand-composed" / "set on midnight navy" / "framed" = good. "Iconic scene" / "must-have" / "epic" = bad.
 
 ---
 
@@ -98,14 +98,14 @@ For your Etsy banner, shop icon, and packaging insert. Deliberately simple — d
 ```
 
 **Type:**
-- "THE SCRIPTED POUR" — Playfair Display Black, small caps, tarnished gold on walnut
-- Tagline — Cinzel, all caps, +200 tracking, muted gold
+- "THE SCRIPTED POUR" — Limelight, small caps, cream on midnight navy
+- Tagline — Cinzel, all caps, +200 tracking, cream
 
-**Substrate:** Same walnut treatment as the signs. The shop banner IS a sign.
+**Substrate:** Same midnight-navy panel as the signs, with the stepped art-deco border. The shop banner IS a sign.
 
 ### Sizes needed for Etsy
-- **Shop icon:** 500×500 px — square walnut with wordmark
-- **Shop banner:** 1200×300 px — wide walnut with wordmark + tagline (use one of the designs as background inspiration — martini-glass or simple ornament)
+- **Shop icon:** 500×500 px — square navy panel with wordmark
+- **Shop banner:** 1200×300 px — wide navy panel with wordmark + tagline (matches the sign aesthetic)
 - **Cover photo (optional):** 3360×840 px — shows a "gallery wall" of 3–4 signs together
 
 Happy to draft these SVGs next once you green-light the name.

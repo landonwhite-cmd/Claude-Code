@@ -68,17 +68,18 @@ For each PNG:
 
 ## Phase 2 — Set up first Printify product (30 min)
 
-Work through **one** sign end-to-end first. I recommend **Lloyd's** (`sample-02-lloyd-shining.svg`) — most iconic, validates the flow.
+Work through **one** sign end-to-end first. I recommend **Lloyd's** (`sign-02-lloyd.svg`) — most iconic, validates the flow.
 
-1. Printify → Catalog → Wall Decor → **Wood Prints** / **Wooden Wall Art**
-2. Pick a provider (read the provider review stars; US-based preferred)
-3. Click **Start Designing**
-4. Upload your `lloyd-11x14.png` for the 11×14 variant
-5. Check the preview — ensure nothing is clipped at the bleed
-6. Repeat for 8×10 and 16×20 variants (upload the corresponding PNG)
-7. Set retail prices per `06-printify-product-spec.md`
-8. **Save as draft** in Printify
-9. **Publish to Etsy** → this creates the Etsy listing as a draft
+1. Printify → Catalog → Wall Decor → **Framed Posters** (filter: US fulfillment)
+2. Pick a provider — **Prodigi** or **Jondo** recommended; confirm >4.5 star provider rating
+3. Select **thin black frame** as the default variant
+4. Click **Start Designing**
+5. Upload your `sign-02-lloyd-11x14.png` for the 11×14 variant
+6. Check the preview — ensure nothing is clipped at the bleed
+7. Repeat for 8×10 and 16×20 variants (upload the corresponding PNG)
+8. Set retail prices per `06-printify-product-spec.md` ($39 / $55 / $79)
+9. **Save as draft** in Printify
+10. **Publish to Etsy** → this creates the Etsy listing as a draft
 
 ---
 
@@ -104,7 +105,7 @@ After Printify pushes a draft to Etsy, go to Etsy → Listings → find the draf
   - Occasion: Housewarming, Father's Day, Birthday, Christmas
 
 ### Photos (order matters — first is the thumbnail)
-1. Front-on clean shot of the sign on a wood wall (Printify's mockup)
+1. Front-on clean shot of the framed sign on a neutral wall (Printify's mockup)
 2. In-context: above a home bar (Printify has "scene" mockups)
 3. Close-up detail of typography
 4. Size comparison (three sizes shown to scale)
@@ -131,15 +132,16 @@ Batch the work:
 
 | Order | Sign | Why first/middle/last |
 |---|---|---|
-| 1 | Lloyd (`sample-02`) | Validates the flow — iconic, classic layout |
-| 2 | Casablanca gin joints (`sample-04`) | Best SEO words ("gin joint sign") |
-| 3 | Tombstone (`sample-03`) | Tests Style B (exposed pine) |
-| 4 | Bond martini (`sample-06`) | Minimal — easy to verify alignment |
-| 5 | Dalton's Rules (`sample-01`) | Square format test |
-| 6 | Animal House (`sample-05`) | |
-| 7 | Sideways Merlot (`sample-07`) | |
-| 8 | The Dude (`sample-08`) | |
-| 9 | Ferris Bueller (`sample-09`) | Landscape — different shipping box |
+| 1 | Lloyd (`sign-02-lloyd.svg`) | Validates the flow — iconic, classic layout |
+| 2 | Casablanca gin joints (`sign-04`) | Best SEO words ("gin joint sign") |
+| 3 | Tombstone (`sign-03`) | |
+| 4 | Bond martini (`sign-06`) | Minimal — easy to verify alignment |
+| 5 | Dalton's Rules (`sign-01`) | Rules-list format test |
+| 6 | Animal House (`sign-05`) | |
+| 7 | Sideways Merlot (`sign-07`) | |
+| 8 | The Dude (`sign-08`) | Square format test |
+| 9 | Ferris Bueller (`sign-09`) | Landscape — different shipping box |
+| 10 | Coughlin's Law (your existing sign) | Use your sign photo as the listing image — the rest of the collection was styled to match |
 
 ---
 
@@ -160,7 +162,7 @@ Copy from `09-shop-policies.md`:
 Copy the bio from `05-shop-identity.md`.
 
 ### 5.4 Banner + shop icon
-- **Shop icon:** 500×500 — simple wordmark on walnut
+- **Shop icon:** 500×500 — simple wordmark on midnight navy
 - **Banner:** 1200×300 — wider version of same
 
 (You can ship without these and add them week 2.)

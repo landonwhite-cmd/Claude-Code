@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" role="img" aria-label="Ferris Bueller life moves pretty fast navy panel">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Limelight&amp;family=Cinzel:wght@400;600;700&amp;family=Caveat:wght@400;500;600;700&amp;display=swap');
+      .quote  { font-family: 'Caveat', cursive; font-weight: 600; }
+      .soft   { font-family: 'Caveat', cursive; font-weight: 500; }
+      .attrib { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 10px; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1200" fill="#1A2238"/>
+
+  <!-- art deco border (landscape adaptation) -->
+  <path d="M 110 90 L 780 90 L 810 110 L 870 90 L 900 110 L 930 90 L 1000 110 L 1020 90 L 1690 90" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 1710 110 L 1710 540 L 1690 570 L 1710 600 L 1690 630 L 1710 660 L 1710 1090" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 1690 1110 L 1020 1110 L 990 1090 L 930 1110 L 900 1090 L 870 1110 L 800 1090 L 780 1110 L 110 1110" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 90 1090 L 90 660 L 110 630 L 90 600 L 110 570 L 90 540 L 90 110" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <g stroke="#F2E4C4" stroke-width="1.5" fill="none">
+    <path d="M 110 90 L 110 60 L 70 60 L 70 110 L 90 110"/>
+    <path d="M 1690 90 L 1690 60 L 1730 60 L 1730 110 L 1710 110"/>
+    <path d="M 1710 1090 L 1730 1090 L 1730 1140 L 1690 1140 L 1690 1110"/>
+    <path d="M 90 1090 L 70 1090 L 70 1140 L 110 1140 L 110 1110"/>
+  </g>
+  <rect x="115" y="115" width="1570" height="970" fill="none" stroke="#F2E4C4" stroke-width="0.8"/>
+
+  <!-- quote hero line -->
+  <text x="900" y="370" text-anchor="middle" class="quote" font-size="110" fill="#F2E4C4">"Life moves pretty fast.</text>
+
+  <line x1="500" y1="440" x2="1300" y2="440" stroke="#F2E4C4" stroke-width="0.6"/>
+
+  <text x="900" y="580" text-anchor="middle" class="soft" font-size="72" fill="#F2E4C4">If you don't stop and look around once in a while,</text>
+  <text x="900" y="670" text-anchor="middle" class="soft" font-size="72" fill="#F2E4C4">you could miss it."</text>
+
+  <line x1="600" y1="900" x2="1200" y2="900" stroke="#F2E4C4" stroke-width="0.6"/>
+  <text x="900" y="975" text-anchor="middle" class="attrib" font-size="24" fill="#F2E4C4">FERRIS BUELLER</text>
+  <text x="900" y="1025" text-anchor="middle" class="attrib" font-size="14" fill="#F2E4C4">SHERMER HIGH SCHOOL · ILLINOIS</text>
+</svg>

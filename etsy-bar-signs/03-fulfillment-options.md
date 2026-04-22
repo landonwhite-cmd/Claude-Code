@@ -1,5 +1,9 @@
 # Fulfillment: Printify vs Alternatives
 
+> **Decision recorded.** We pivoted Wave 1 away from wood entirely — after seeing the user's existing Coughlin's Law sign, the anchor turned out to be a printed navy panel in a thin black frame. Wave 1 now ships via Printify's **Framed Poster** product (see `06-printify-product-spec.md`). Wood remains on the roadmap as the **Wave 2 premium tier** via an Etsy Manufacturing Partner. The analysis below is preserved for that Wave 2 evaluation.
+
+---
+
 **TL;DR:** If you want *truly* rustic wood (real stained wood, visible grain, possibly engraved/burned-look), Printify is **not ideal**. Their "wood" catalog is mostly **printed-on-wood panels** — decent, but not premium craftsman vibe. For the $50–$100 "high quality" tier, you probably want one of the alternatives below, or a hybrid strategy.
 
 ---

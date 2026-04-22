@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1400" role="img" aria-label="Animal House start drinking heavily navy panel">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Limelight&amp;family=Cinzel:wght@400;600;700&amp;family=Caveat:wght@400;500;600;700&amp;display=swap');
+      .quote  { font-family: 'Caveat', cursive; font-weight: 600; }
+      .accent { font-family: 'Limelight', 'Cinzel', serif; letter-spacing: 6px; }
+      .attrib { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 10px; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="1400" fill="#1A2238"/>
+
+  <path d="M 110 90 L 490 90 L 520 110 L 550 90 L 580 110 L 610 90 L 990 90" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 1010 110 L 1010 670 L 990 690 L 1010 710 L 990 730 L 1010 750 L 1010 1290" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 990 1310 L 610 1310 L 580 1290 L 550 1310 L 520 1290 L 490 1310 L 110 1310" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 90 1290 L 90 750 L 110 730 L 90 710 L 110 690 L 90 670 L 90 110" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <g stroke="#F2E4C4" stroke-width="1.5" fill="none">
+    <path d="M 110 90 L 110 60 L 70 60 L 70 110 L 90 110"/>
+    <path d="M 990 90 L 990 60 L 1030 60 L 1030 110 L 1010 110"/>
+    <path d="M 1010 1290 L 1030 1290 L 1030 1340 L 990 1340 L 990 1310"/>
+    <path d="M 90 1290 L 70 1290 L 70 1340 L 110 1340 L 110 1310"/>
+  </g>
+  <rect x="115" y="115" width="870" height="1170" fill="none" stroke="#F2E4C4" stroke-width="0.8"/>
+
+  <!-- quote -->
+  <text x="550" y="440" text-anchor="middle" class="quote" font-size="88" fill="#F2E4C4">"My advice to you</text>
+  <text x="550" y="540" text-anchor="middle" class="quote" font-size="88" fill="#F2E4C4">is to start drinking</text>
+
+  <line x1="380" y1="640" x2="720" y2="640" stroke="#F2E4C4" stroke-width="0.6"/>
+
+  <!-- accent word in Limelight -->
+  <text x="550" y="820" text-anchor="middle" class="accent" font-size="132" fill="#F2E4C4">HEAVILY.</text>
+
+  <line x1="380" y1="1100" x2="720" y2="1100" stroke="#F2E4C4" stroke-width="0.6"/>
+  <text x="550" y="1175" text-anchor="middle" class="attrib" font-size="22" fill="#F2E4C4">DEAN VERNON WORMER</text>
+  <text x="550" y="1220" text-anchor="middle" class="attrib" font-size="14" fill="#F2E4C4">FABER COLLEGE</text>
+</svg>

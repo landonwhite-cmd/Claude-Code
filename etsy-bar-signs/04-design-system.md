@@ -1,22 +1,25 @@
-# Design System — Rustic Wood Bar Signs
+# Design System — Navy Framed Panels
 
-The visual rules every sign in the collection will follow. Goal: a **cohesive brand** so the shop looks like one intentional collection rather than 30 random signs.
+The visual rules every sign in the Wave 1 launch collection follows. Goal: a **cohesive brand** that matches the existing Coughlin's Law sign (the anchor product) so the shop looks like one intentional collection.
+
+> **Substrate pivot, April 2026.** We pivoted from rustic wood to navy framed panels after the user's existing Coughlin's Law turned out to be a printed navy panel in a thin black frame, not wood. That aesthetic is more Etsy-friendly, higher-margin, and more giftable. The rustic-wood system is preserved in `wave-2-premium-wood/` for the future premium tier.
 
 ---
 
 ## Aesthetic Mood Board (in words)
 
-Think: **1920s speakeasy meets 1880s saloon meets modern whiskey bar.**
+Think: **1920s speakeasy menu card, framed and hung behind the bar.**
 
-- Dark-stained oak or weathered barnwood substrate
-- Painted / stenciled / brush-lettered typography (not "digital poster" energy)
-- Cream, bone, ivory, muted gold, oxblood — never pure white or neon
-- Slight distressing, not overdone — think "50 years of honest wear", not "Hobby Lobby"
-- Layout: classic centered composition with clear hierarchy, room to breathe
+- Midnight navy panel inside a thin black frame
+- Warm cream ink — printed, not embossed
+- Restrained stepped art-deco border
+- Serif slab title in the Limelight / Copperplate family
+- Handwritten script body (Caveat) that reads like a bartender's notebook
+- No distressing, no textures — clean, high-contrast, gallery-ready
 
-**Reference brands to emulate:** Buffalo Trace labels, Basil Hayden bottle design, Death & Co menu typography, Wes Anderson's *Grand Budapest* poster hierarchy.
+**Reference brands to emulate:** Death & Co menu design, Dante NYC, Employees Only menu cards, Art Deco hotel signage (The Beekman, The Greenbrier)
 
-**Reference brands to avoid:** Live Laugh Love farmhouse signs, cricut-cut vinyl signs, Hobby Lobby decor.
+**Reference brands to avoid:** Rustic-wood farmhouse decor, cricut-cut vinyl signs, neon bar signs, distressed-metal "man cave" aesthetic
 
 ---
 
@@ -26,153 +29,132 @@ Think: **1920s speakeasy meets 1880s saloon meets modern whiskey bar.**
 
 | Role | Hex | Name | Notes |
 |---|---|---|---|
-| Wood-dark | `#3B2B1F` | Walnut | For dark-stained backgrounds |
-| Wood-mid | `#6B4A2B` | Bourbon Oak | For mid-stain / rustic warmth |
-| Wood-light | `#C8A876` | Natural Pine | Only used via exposed wood, not printed |
-| Ink-cream | `#F2E4C4` | Parchment | Primary light lettering |
-| Ink-bone | `#E8D9B8` | Bone | Alternate light lettering |
-| Ink-black | `#1A1410` | Lamp-Soot Black | Primary dark lettering |
-| Accent-gold | `#B48B3C` | Tarnished Gold | Ornaments, dividers, accent words |
-| Accent-oxblood | `#6E1F1A` | Oxblood | Sparingly; emphasis word |
+| Panel navy | `#1A2238` | Midnight | Primary background — every sign |
+| Ink cream | `#F2E4C4` | Parchment | Primary lettering, border, all ornaments |
+| Frame black | `#0A0A0A` | Frame Black | Not printed on sign — the physical frame |
 
-### Per-genre accent (one accent color per sign genre)
-
-| Genre | Accent | Used for |
-|---|---|---|
-| Whiskey / classy | Tarnished Gold `#B48B3C` | Dividers, drop caps |
-| Horror (The Shining) | Oxblood `#6E1F1A` | Select words |
-| Western (Tombstone) | Rust `#8A3A1A` | Ornament, attribution |
-| Wine (Sideways) | Deep Wine `#4A1A2A` | Select words |
-| Vegas/Poker | Felt Green `#1F4A36` | Suit ornaments |
-| Mob (Goodfellas/Scarface) | Ink-black + gold | No color accent — monochrome |
+That's it. Single-color ink. No per-genre accents. Consistency is the brand.
 
 ---
 
 ## Typography
 
-### Font pairings (all free/open-license on Google Fonts)
+### Fonts (all free/open-license on Google Fonts)
 
-| Use | Primary | Fallback | Why |
-|---|---|---|---|
-| **Display / headlines** | **Playfair Display** (Black) | Abril Fatface | Elegant serif, wide glyphs, reads at 40pt+ |
-| **Body / quote text** | **IM Fell English** | Cormorant Garamond | 17th-c serif — perfect for speakeasy/vintage |
-| **Attribution / small caps** | **Cinzel** | Trajan Pro | Engraved-look caps, Roman-trajan feel |
-| **Brush / handwritten accents** | **Homemade Apple** or **Tangerine** | — | For a single flourish word, used sparingly |
-| **Western-genre display** | **Rye** or **Smokum** | — | Western signs only (Tombstone, etc.) |
-| **Horror-genre display** | **UnifrakturMaguntia** (Blackletter) | — | Shining signs only — blackletter is period-correct |
+| Use | Font | Why |
+|---|---|---|
+| **Title / section headers** | **Limelight** | Art-deco slab serif, wide tracking, gallery-menu feel |
+| **Body / quote text** | **Caveat** (600 weight) | Handwritten script, upright, bartender's-notebook energy |
+| **Attribution / small caps** | **Cinzel** (600 weight) | Engraved small-caps Roman, anchors the composition |
+| **Numerals (rules signs)** | **Cinzel** (700 weight) | I. II. III. in tracked small caps |
+| **Accent word (oversized)** | **Limelight** at 120–180pt | For single-word emphasis: "HEAVILY.", "MERLOT." |
 
 ### Type rules
 
-- **Never mix more than 3 fonts** on a single sign
-- Quote is the hero — largest type, centered
-- Attribution always italic or small caps, 40–50% the size of the quote
-- Track headlines tighter (-10 to -20), track small caps looser (+100 to +200)
-- Drop caps: allowed on longer quotes, use Playfair Display in accent color
+- **Never mix more than 3 fonts** on a single sign (Limelight + Caveat + Cinzel)
+- **Body is the hero** — largest Caveat at 70–100pt
+- **Attribution** is Cinzel small caps, 20–26pt, letter-spacing +10
+- **Rules signs use titles.** Single-quote signs do not — go straight from ornament (if any) to quote.
 
 ---
 
 ## Layout Grid
 
-### Standard proportions (all signs)
+### Standard proportions
 
-- **Safe area:** inner 90% of canvas (5% margin)
-- **Quote zone:** centered, takes 60–70% of vertical height
-- **Attribution zone:** bottom 15%
-- **Ornament zone:** top 10–15% (optional decorative element — star, fleur-de-lis, dividing line)
+- **Safe area:** inner ~85% of canvas
+- **Border:** stepped art-deco frame at ~8% inset, with decorative center notches on each edge and angled outer corner brackets
+- **Inner rectangle:** plain single-line at ~10% inset, creates the double-line effect
+- **Quote zone:** centered, takes 50–60% of vertical height
+- **Attribution zone:** bottom ~10%, above a horizontal rule
 
 ### Orientations
 
 | Orientation | Use for |
 |---|---|
-| **Portrait 8×10** | Short quotes, gift-sized |
-| **Portrait 11×14** | Default size — most quotes |
-| **Landscape 12×18** | Long quotes (Blues Brothers, Arthur) |
-| **Square 12×12** | "Rules" signs with numbered lists |
-| **Large portrait 16×20** | Premium tier / statement piece |
-
-### Rules signs (multi-line lists)
-
-- Title at top in Playfair Display, centered, all-caps
-- Horizontal divider ornament below title
-- Numbered rules using Cinzel for numbers, IM Fell for rule body
-- Each rule: bold first phrase ("Be nice."), regular second clause
-- Foot divider + attribution or establishment name at bottom
+| **11×14 portrait** | Default — most signs |
+| **12×12 square** | Short quotes (Dalton's Rules, The Dude) |
+| **12×18 landscape** | Long quotes (Ferris Bueller, Blues Brothers in Wave 2) |
 
 ---
 
-## Composition Rules (the "what makes it look classy" rules)
+## The Art-Deco Border
 
-1. **One focal point per sign.** No competing hierarchies.
+Every sign uses the same border system so the collection reads as a set.
+
+### Structure (portrait 1100×1400 example)
+- Outer line: 4 path segments (one per edge) with:
+  - Small center notches (step up–over–down) at the midpoint of each edge
+  - Angled outer corner brackets at each corner
+- Inner line: plain rectangle at +20–25px inset
+- All strokes cream `#F2E4C4`, 0.8–1.5px weight
+
+### Structure (square 1200×1200 and landscape 1800×1200)
+Same pattern, notch positions scaled proportionally. Reference implementations in `sign-08-dude-abides.svg` and `sign-09-ferris-bueller.svg`.
+
+---
+
+## Ornaments (use sparingly)
+
+Each sign may include at most one small ornament at the top (optional). All ornaments are monochrome cream stroke.
+
+| Ornament | Use on |
+|---|---|
+| 5-point star | Tombstone |
+| Martini glass outline | Bond |
+| Wine bottle + glass outline | Sideways |
+| Art-deco fan | Casablanca |
+| Rug-pattern chevron | The Dude |
+
+Signs with no ornament: Dalton's Rules, Lloyd's, Animal House, Ferris Bueller, Coughlin's Law. The typography and border do the work.
+
+---
+
+## Composition Rules
+
+1. **One focal point per sign.** Either the quote (most signs) or the oversized accent word (Animal House, Sideways).
 2. **Generous whitespace.** When in doubt, make the quote smaller.
-3. **Symmetrical compositions only** for launch collection. Asymmetry can come later.
-4. **Ornaments are earned, not defaults.** Use a divider or a star only when it genuinely balances the composition.
-5. **Distressing is texture, not content.** Never distress lettering to the point of illegibility.
-6. **Attribution is always present.** It's what makes the sign feel like a quote, not a slogan.
-7. **No movie titles on the sign.** Ever. (IP + aesthetic — movie titles look like merch.)
-8. **No narrator lead-ins** above the quote (e.g. "— A REMINDER —", "— ON THE HOUSE —", "— FROM THE DESK OF THE DEAN —"). Let the ornament do the work. Go straight from ornament to quote.
+3. **Symmetrical composition only.** Everything centered.
+4. **Ornaments are earned.** Most signs don't need one.
+5. **Attribution is always Cinzel small caps,** anchored by a horizontal rule above.
+6. **No movie titles on the sign.** Ever — attribute to character + plausible venue.
+7. **No narrator lead-ins** ("— A REMINDER —", "— ON THE HOUSE —", etc.). Ornament directly to quote.
+8. **No color beyond cream on navy.** Discipline — no oxblood, no gold, no per-genre accents in Wave 1.
 
 ---
 
 ## Printify Production Specs
 
-For Printify's wood print products (UV-printed birch panels):
+For Printify's framed-poster products (paper print in a thin black frame):
 
 - **Resolution:** 300 DPI at final print size
-- **Color profile:** sRGB (Printify converts)
-- **File format:** PNG with transparent background **preferred**, or PNG with solid dark background
-- **Bleed:** 0.125" on all sides (Printify handles trim)
-- **Minimum safe area:** 0.25" from edge
+- **Color profile:** sRGB
+- **File format:** PNG (preferred) or JPG
+- **Bleed:** 0.125" on all sides
+- **Safe area:** 0.25" from edge
+- **Background:** Solid navy fills the entire print — no transparent edges
 
-### Design file sizes (pixels at 300 DPI)
+### Design file sizes (pixels at 300 DPI, matching print size)
 
 | Sign size | Pixel dimensions (w/ bleed) |
 |---|---|
-| 8×10 | 2475×3075 px |
-| 11×14 | 3375×4275 px |
-| 12×18 landscape | 5475×3675 px |
+| 8×10 portrait | 2475×3075 px |
+| 11×14 portrait | 3375×4275 px |
 | 12×12 square | 3675×3675 px |
-| 16×20 | 4875×6075 px |
-
-### Background strategy for Printify
-
-Two valid approaches — **pick one per sign based on which flatters the quote**:
-
-**A) Full dark stain** — we print a dark wood-stain texture covering the whole panel, lettering in cream. Looks most like a "finished bar sign". Works when: the quote is short or medium, and we want drama.
-
-**B) Exposed grain** — we print only the lettering (dark color) and a frame/border onto the natural birch panel. The wood grain becomes the background. Looks most "authentic rustic". Works when: quote is visually simple, and we want the wood itself as the hero.
-
-Default to A for horror/classy/mob genres, B for western/whiskey genres.
+| 12×18 landscape | 5475×3675 px |
+| 16×20 portrait | 4875×6075 px |
 
 ---
 
-## Wave 2 Upgrade Path (Real Wood)
+## Wave 2 — Premium Rustic Wood (future)
 
-When we move winners to a manufacturing partner, the same designs translate to:
-
-- **Painted-letter signs** — exposed wood + hand-painted (or machine-painted) lettering. Option B translates directly.
-- **Routed + painted signs** — CNC-routed letters, painted inside the routed areas. Most premium.
-- **Laser-engraved signs** — burned lettering, no paint. Works well for dark/horror genres.
-
-Our SVG files will be directly usable for CNC and laser production — the partner just needs the vector.
+Once Wave 1 reveals which quotes sell, the winners get a premium-tier companion SKU: real stained oak or pine, hand-painted or laser-engraved lettering, sold $75–$100 via an Etsy Manufacturing Partner. The original rustic-wood designs in `mockups/wave-2-premium-wood/` are the starting point for those — they'll need slight adaptation for real-wood production but the composition transfers.
 
 ---
 
-## Brand / Shop Identity (preview)
+## Brand Preview
 
-We'll nail this down in the branding doc, but the visual system above should feel like:
-
-- **Shop name:** **The Scripted Pour** — *"Where the movies meet the bar."*
-- **Voice:** "Smart bartender who's seen every movie" — not "fan merch seller"
-- **Packaging concept:** kraft cardboard + twine + a printed insert card (see `05-shop-identity.md`)
-
----
-
-## What You'll See Next
-
-I'm going to produce **3 sample SVG mockups** next, to validate this system before I produce all 30:
-
-1. **Coughlin's Laws** (R1) — your anchor product, rules-sign format
-2. **Lloyd "Your money's no good here"** (#2) — horror/classy, style A (full dark stain)
-3. **Tombstone "Hell's coming with me"** (#7) — western, style B (exposed grain)
-
-If those three land, I'll produce the rest in batches.
+Files with brand-level details:
+- **Shop name:** The Scripted Pour — *"Where the movies meet the bar."* (see `05-shop-identity.md`)
+- **Voice:** smart bartender who's seen every movie, not fan-merch seller
+- **Packaging concept:** kraft cardboard + twine + a printed insert card (draft in `05-shop-identity.md`)

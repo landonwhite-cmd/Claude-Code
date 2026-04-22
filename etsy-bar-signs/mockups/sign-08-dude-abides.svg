@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="The Dude abides navy panel">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Limelight&amp;family=Cinzel:wght@400;600;700&amp;family=Caveat:wght@400;500;600;700&amp;display=swap');
+      .quote  { font-family: 'Caveat', cursive; font-weight: 700; }
+      .attrib { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 10px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1200" fill="#1A2238"/>
+
+  <!-- art deco border (square adaptation) -->
+  <path d="M 110 90 L 540 90 L 570 110 L 600 90 L 630 110 L 660 90 L 1090 90" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 1110 110 L 1110 540 L 1090 570 L 1110 600 L 1090 630 L 1110 660 L 1110 1090" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 1090 1110 L 660 1110 L 630 1090 L 600 1110 L 570 1090 L 540 1110 L 110 1110" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 90 1090 L 90 660 L 110 630 L 90 600 L 110 570 L 90 540 L 90 110" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <g stroke="#F2E4C4" stroke-width="1.5" fill="none">
+    <path d="M 110 90 L 110 60 L 70 60 L 70 110 L 90 110"/>
+    <path d="M 1090 90 L 1090 60 L 1130 60 L 1130 110 L 1110 110"/>
+    <path d="M 1110 1090 L 1130 1090 L 1130 1140 L 1090 1140 L 1090 1110"/>
+    <path d="M 90 1090 L 70 1090 L 70 1140 L 110 1140 L 110 1110"/>
+  </g>
+  <rect x="115" y="115" width="970" height="970" fill="none" stroke="#F2E4C4" stroke-width="0.8"/>
+
+  <!-- rug-pattern top divider -->
+  <g transform="translate(600,220)" stroke="#F2E4C4" stroke-width="1.4" fill="none">
+    <path d="M -90 0 L -60 -14 L -30 0 L 0 -14 L 30 0 L 60 -14 L 90 0"/>
+  </g>
+
+  <!-- quote, big -->
+  <text x="600" y="540" text-anchor="middle" class="quote" font-size="180" fill="#F2E4C4">"The Dude</text>
+  <text x="600" y="740" text-anchor="middle" class="quote" font-size="180" fill="#F2E4C4">abides."</text>
+
+  <g transform="translate(600,850)" stroke="#F2E4C4" stroke-width="1.4" fill="none">
+    <path d="M -90 0 L -60 -14 L -30 0 L 0 -14 L 30 0 L 60 -14 L 90 0"/>
+  </g>
+
+  <text x="600" y="1000" text-anchor="middle" class="attrib" font-size="22" fill="#F2E4C4">JEFFREY "THE DUDE" LEBOWSKI</text>
+  <text x="600" y="1045" text-anchor="middle" class="attrib" font-size="14" fill="#F2E4C4">LOS ANGELES · CALIFORNIA</text>
+</svg>

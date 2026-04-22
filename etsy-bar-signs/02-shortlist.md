@@ -1,6 +1,6 @@
 # Shortlist — Launch Collection
 
-Locked-in signs for the initial Etsy collection. Substrate: **classy, rustic wood**. Price target: **$50–$100**.
+Locked-in signs for the initial Etsy collection. Substrate: **framed navy poster** (Wave 1) with a **rustic wood premium tier** planned for Wave 2 (see `03-fulfillment-options.md` and `04-design-system.md`). Launch price range: **$39–$99**.
 
 ## Single-Quote Signs (23)
 
