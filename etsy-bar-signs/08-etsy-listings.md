@@ -54,7 +54,7 @@ overlook hotel, wood wall art, quote wall art, lloyd quote
 ```
 For the home bar that takes itself a little too seriously.
 
-"Your money's no good here, sir.
+"Your money's no good here.
 Orders from the house."
 — LLOYD · THE OVERLOOK HOTEL · BARTENDER
 

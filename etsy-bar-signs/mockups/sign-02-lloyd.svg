@@ -23,11 +23,11 @@
   <rect x="115" y="115" width="870" height="1170" fill="none" stroke="#F2E4C4" stroke-width="0.8"/>
 
   <!-- quote (large Caveat) -->
-  <text x="550" y="500" text-anchor="middle" class="quote" font-size="84" fill="#F2E4C4">"Your money's</text>
-  <text x="550" y="600" text-anchor="middle" class="quote" font-size="84" fill="#F2E4C4">no good here, sir.</text>
+  <text x="550" y="500" text-anchor="middle" class="quote" font-size="96" fill="#F2E4C4">"Your money's</text>
+  <text x="550" y="610" text-anchor="middle" class="quote" font-size="96" fill="#F2E4C4">no good here.</text>
 
-  <text x="550" y="810" text-anchor="middle" class="quote" font-size="74" fill="#F2E4C4">Orders from</text>
-  <text x="550" y="900" text-anchor="middle" class="quote" font-size="74" fill="#F2E4C4">the house."</text>
+  <text x="550" y="820" text-anchor="middle" class="quote" font-size="82" fill="#F2E4C4">Orders from</text>
+  <text x="550" y="910" text-anchor="middle" class="quote" font-size="82" fill="#F2E4C4">the house."</text>
 
   <line x1="380" y1="1100" x2="720" y2="1100" stroke="#F2E4C4" stroke-width="0.6"/>
   <text x="550" y="1175" text-anchor="middle" class="attrib" font-size="24" fill="#F2E4C4">LLOYD</text>
