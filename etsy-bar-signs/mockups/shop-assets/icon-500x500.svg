@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="The Scripted Pour shop icon">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Limelight&amp;family=Cinzel:wght@400;600;700&amp;display=swap');
+      .wordmark { font-family: 'Limelight', 'Cinzel', serif; letter-spacing: 6px; }
+      .tagline  { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 4px; }
+    </style>
+  </defs>
+
+  <rect width="500" height="500" fill="#1A2238"/>
+
+  <!-- art deco border -->
+  <path d="M 60 40 L 220 40 L 235 55 L 250 40 L 265 55 L 280 40 L 440 40" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 460 60 L 460 220 L 445 235 L 460 250 L 445 265 L 460 280 L 460 440" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 440 460 L 280 460 L 265 445 L 250 460 L 235 445 L 220 460 L 60 460" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 40 440 L 40 280 L 55 265 L 40 250 L 55 235 L 40 220 L 40 60" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <g stroke="#F2E4C4" stroke-width="1.5" fill="none">
+    <path d="M 60 40 L 60 20 L 30 20 L 30 60 L 40 60"/>
+    <path d="M 440 40 L 440 20 L 470 20 L 470 60 L 460 60"/>
+    <path d="M 460 440 L 470 440 L 470 480 L 440 480 L 440 460"/>
+    <path d="M 40 440 L 30 440 L 30 480 L 60 480 L 60 460"/>
+  </g>
+  <rect x="65" y="65" width="370" height="370" fill="none" stroke="#F2E4C4" stroke-width="0.5"/>
+
+  <!-- martini glass centerpiece -->
+  <g transform="translate(250,200)" fill="none" stroke="#F2E4C4" stroke-width="3">
+    <path d="M -66 -48 L 66 -48 L 0 34 Z"/>
+    <line x1="0" y1="34" x2="0" y2="88"/>
+    <line x1="-36" y1="88" x2="36" y2="88"/>
+    <circle cx="22" cy="-18" r="6" fill="#F2E4C4"/>
+  </g>
+
+  <!-- wordmark on two lines -->
+  <text x="250" y="340" text-anchor="middle" class="wordmark" font-size="30" fill="#F2E4C4">THE SCRIPTED</text>
+  <text x="250" y="385" text-anchor="middle" class="wordmark" font-size="30" fill="#F2E4C4">POUR</text>
+
+  <!-- underline -->
+  <line x1="150" y1="410" x2="350" y2="410" stroke="#F2E4C4" stroke-width="0.6"/>
+
+  <!-- tagline, abbreviated -->
+  <text x="250" y="432" text-anchor="middle" class="tagline" font-size="10" fill="#F2E4C4">EST. 2026</text>
+</svg>

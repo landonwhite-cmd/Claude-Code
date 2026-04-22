@@ -19,6 +19,16 @@ The aesthetic matches the user's existing Coughlin's Law sign: midnight navy sub
 | `sign-07-sideways-merlot.svg` | Sideways Merlot | 11×14 portrait | Quote + wine-bottle/glass + oversized "MERLOT." |
 | `sign-08-dude-abides.svg` | The Dude abides | 12×12 square | Big quote + rug-pattern divider |
 | `sign-09-ferris-bueller.svg` | Ferris Bueller | 12×18 landscape | Long-quote landscape layout |
+| `sign-10-coughlins-law.svg` | Coughlin's Law (anchor) | 12×16 portrait | 9-rule list matching the user's existing physical sign |
+
+## Shop Assets
+
+Brand collateral for Etsy setup + packaging. See `shop-assets/README.md`.
+
+- `shop-assets/banner-1200x300.svg` — Etsy shop banner
+- `shop-assets/icon-500x500.svg` — Etsy shop icon
+- `shop-assets/insert-card-4x6-front.svg` — packaging insert, front
+- `shop-assets/insert-card-4x6-back.svg` — packaging insert, back
 
 ## Wave 2 — Premium Rustic Wood (deferred)
 

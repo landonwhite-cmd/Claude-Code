@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1800" role="img" aria-label="Packaging insert card back">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Limelight&amp;family=Cinzel:wght@400;600;700&amp;family=Caveat:wght@400;500;600;700&amp;display=swap');
+      .header  { font-family: 'Limelight', 'Cinzel', serif; letter-spacing: 8px; }
+      .body    { font-family: 'Caveat', cursive; font-weight: 500; }
+      .small   { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 6px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1800" fill="#1A2238"/>
+
+  <!-- art deco border -->
+  <path d="M 110 90 L 540 90 L 570 110 L 600 90 L 630 110 L 660 90 L 1090 90" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 1110 110 L 1110 870 L 1090 890 L 1110 910 L 1090 930 L 1110 950 L 1110 1690" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 1090 1710 L 660 1710 L 630 1690 L 600 1710 L 570 1690 L 540 1710 L 110 1710" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 90 1690 L 90 950 L 110 930 L 90 910 L 110 890 L 90 870 L 90 110" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <g stroke="#F2E4C4" stroke-width="1.5" fill="none">
+    <path d="M 110 90 L 110 60 L 70 60 L 70 110 L 90 110"/>
+    <path d="M 1090 90 L 1090 60 L 1130 60 L 1130 110 L 1110 110"/>
+    <path d="M 1110 1690 L 1130 1690 L 1130 1740 L 1090 1740 L 1090 1710"/>
+    <path d="M 90 1690 L 70 1690 L 70 1740 L 110 1740 L 110 1710"/>
+  </g>
+  <rect x="115" y="115" width="970" height="1570" fill="none" stroke="#F2E4C4" stroke-width="0.8"/>
+
+  <!-- header -->
+  <text x="600" y="240" text-anchor="middle" class="header" font-size="40" fill="#F2E4C4">THANKS FOR ORDERING.</text>
+  <line x1="280" y1="290" x2="920" y2="290" stroke="#F2E4C4" stroke-width="0.6"/>
+
+  <!-- body in Caveat script, centered -->
+  <g text-anchor="middle" fill="#F2E4C4" class="body">
+    <text x="600" y="430" font-size="52">The sign you just unpacked was</text>
+    <text x="600" y="490" font-size="52">hand-composed, printed on museum-</text>
+    <text x="600" y="550" font-size="52">grade paper, and framed in solid wood.</text>
+
+    <text x="600" y="680" font-size="52">Hang it on a single nail or screw —</text>
+    <text x="600" y="740" font-size="52">the sawtooth hanger does the work.</text>
+
+    <text x="600" y="870" font-size="52">If you love it, we'd be grateful</text>
+    <text x="600" y="930" font-size="52">for a review.</text>
+
+    <text x="600" y="1060" font-size="52">If something's off, message us —</text>
+    <text x="600" y="1120" font-size="52">we'll make it right.</text>
+
+    <text x="600" y="1260" font-size="64">Cheers.</text>
+  </g>
+
+  <!-- bottom block -->
+  <line x1="380" y1="1400" x2="820" y2="1400" stroke="#F2E4C4" stroke-width="0.6"/>
+  <text x="600" y="1460" text-anchor="middle" class="small" font-size="18" fill="#F2E4C4">THE SCRIPTED POUR</text>
+  <text x="600" y="1510" text-anchor="middle" class="small" font-size="14" fill="#F2E4C4">THESCRIPTEDPOUR.ETSY.COM</text>
+  <text x="600" y="1555" text-anchor="middle" class="small" font-size="14" fill="#F2E4C4">@THESCRIPTEDPOUR</text>
+  <line x1="380" y1="1600" x2="820" y2="1600" stroke="#F2E4C4" stroke-width="0.6"/>
+</svg>

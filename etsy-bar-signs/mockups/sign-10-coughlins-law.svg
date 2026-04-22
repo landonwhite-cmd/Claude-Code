@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-label="Coughlin's Law nine rules bar sign">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Limelight&amp;family=Cinzel:wght@400;600;700&amp;family=Caveat:wght@400;500;600;700&amp;display=swap');
+      .title   { font-family: 'Limelight', 'Cinzel', serif; letter-spacing: 10px; }
+      .rule    { font-family: 'Caveat', cursive; font-weight: 500; }
+      .attrib  { font-family: 'Cinzel', serif; font-weight: 600; letter-spacing: 10px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1600" fill="#1A2238"/>
+
+  <!-- art deco border (portrait adaptation for 1200x1600) -->
+  <path d="M 110 90 L 540 90 L 570 110 L 600 90 L 630 110 L 660 90 L 1090 90" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 1110 110 L 1110 770 L 1090 790 L 1110 810 L 1090 830 L 1110 850 L 1110 1490" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 1090 1510 L 660 1510 L 630 1490 L 600 1510 L 570 1490 L 540 1510 L 110 1510" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <path d="M 90 1490 L 90 850 L 110 830 L 90 810 L 110 790 L 90 770 L 90 110" fill="none" stroke="#F2E4C4" stroke-width="1.5"/>
+  <g stroke="#F2E4C4" stroke-width="1.5" fill="none">
+    <path d="M 110 90 L 110 60 L 70 60 L 70 110 L 90 110"/>
+    <path d="M 1090 90 L 1090 60 L 1130 60 L 1130 110 L 1110 110"/>
+    <path d="M 1110 1490 L 1130 1490 L 1130 1540 L 1090 1540 L 1090 1510"/>
+    <path d="M 90 1490 L 70 1490 L 70 1540 L 110 1540 L 110 1510"/>
+  </g>
+  <rect x="115" y="115" width="970" height="1370" fill="none" stroke="#F2E4C4" stroke-width="0.8"/>
+
+  <!-- title -->
+  <text x="600" y="230" text-anchor="middle" class="title" font-size="84" fill="#F2E4C4">COUGHLIN'S LAW</text>
+  <line x1="300" y1="285" x2="900" y2="285" stroke="#F2E4C4" stroke-width="0.8"/>
+
+  <!-- rules in Caveat, centered -->
+  <g text-anchor="middle" fill="#F2E4C4" class="rule">
+    <!-- Rule 1 -->
+    <text x="600" y="370" font-size="40">"Anything else is always something better."</text>
+
+    <!-- Rule 2 -->
+    <text x="600" y="445" font-size="40">"Beer is for breakfast around here, drink or be gone."</text>
+
+    <!-- Rule 3 -->
+    <text x="600" y="520" font-size="40">"A bartender is the aristocrat of the working class."</text>
+
+    <!-- Rule 4 (3 lines) -->
+    <text x="600" y="600" font-size="40">"A man will always be judged on the amount of alcohol</text>
+    <text x="600" y="648" font-size="40">he can consume. And a woman will be impressed,</text>
+    <text x="600" y="696" font-size="40">whether she likes it or not."</text>
+
+    <!-- Rule 5 (2 lines) -->
+    <text x="600" y="775" font-size="40">"Never tell tales about a woman, she'll hear you</text>
+    <text x="600" y="823" font-size="40">no matter how far away she is."</text>
+
+    <!-- Rule 6 -->
+    <text x="600" y="900" font-size="40">"Never show surprise, never lose your cool."</text>
+
+    <!-- Rule 7 (3 lines) -->
+    <text x="600" y="980" font-size="40">"There are two kinds of people in this world,</text>
+    <text x="600" y="1028" font-size="40">the workers and the hustlers. The hustlers never work</text>
+    <text x="600" y="1076" font-size="40">and the workers never hustle."</text>
+
+    <!-- Rule 8 (2 lines) -->
+    <text x="600" y="1155" font-size="40">"The luck is gone, the brain is shot,</text>
+    <text x="600" y="1203" font-size="40">but the liquor we still got."</text>
+
+    <!-- Rule 9 (2 lines) -->
+    <text x="600" y="1282" font-size="40">"And as for the rest of Coughlin's Laws, ignore them.</text>
+    <text x="600" y="1330" font-size="40">The guy was always full of shit."</text>
+  </g>
+
+  <!-- bottom divider + attribution -->
+  <line x1="420" y1="1400" x2="780" y2="1400" stroke="#F2E4C4" stroke-width="0.6"/>
+  <text x="600" y="1460" text-anchor="middle" class="attrib" font-size="18" fill="#F2E4C4">DOUG COUGHLIN · HEAD BARTENDER</text>
+</svg>
